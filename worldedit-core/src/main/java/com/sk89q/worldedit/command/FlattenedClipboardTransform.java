@@ -42,7 +42,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * @see Clipboard
  * @see Transform
  */
-class FlattenedClipboardTransform {
+public class FlattenedClipboardTransform {
 
     private final Clipboard original;
     private final Transform transform;
